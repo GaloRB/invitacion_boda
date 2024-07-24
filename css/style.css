@@ -52,13 +52,13 @@ body {
 }
 
 a {
-  color: #F14E95;
+  color: #cb9714;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F14E95;
+  color: #cb9714;
   outline: none;
   text-decoration: none;
 }
@@ -76,17 +76,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F14E95;
+  background: #cb9714;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F14E95;
+  background: #cb9714;
 }
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: #cb9714;
 }
 
 .fh5co-nav {
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   line-height: 40px;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Playwrite DK Uloopet", Arial, serif;
 }
 .fh5co-nav a {
   padding: 5px 10px;
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #F14E95;
+  color: #cb9714;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -244,6 +244,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-video {
+
   overflow: hidden;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -748,7 +749,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   display: inline;
-  color: #F14E95;
+  color: #cb9714;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -767,7 +768,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #F14E95;
+  color: #cb9714;
   position: absolute;
   left: 0;
   top: .05em;
@@ -824,7 +825,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Playwrite DK Uloopet", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -858,8 +859,8 @@ form label {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
-  background: #fff !important;
-  color: #F14E95;
+  background: #E6E6FA !important;
+  color: #cb9714;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -920,9 +921,9 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  width: 85px;
+  height: 85px;
+  background: #cb9714;
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -947,8 +948,8 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  width: 100px;
+  height: 85px;
+  width: 85px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -959,14 +960,14 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 17px;
   /* amounts */
 }
 
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   /* words */
 }
 
@@ -1023,7 +1024,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #F14E95;
+  color: #cb9714;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1045,8 +1046,8 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Sacramento", Arial, serif;
-  color: #F14E95;
+  font-family: "Playwrite DK Uloopet", Arial, serif;
+  color: #cb9714;
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1140,7 +1141,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #F14E95;
+  color: #cb9714;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -1162,8 +1163,8 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
-  font-family: "Sacramento", Arial, serif;
+  color: #cb9714;
+  font-family: "Playwrite DK Uloopet", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1197,7 +1198,7 @@ form label {
   display: block;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #F14E95;
+  color: #cb9714;
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
@@ -1289,7 +1290,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #F14E95;
+  color: #cb9714;
 }
 .feature-left .feature-copy {
   float: left;
@@ -1355,7 +1356,7 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #F14E95;
+  background: #cb9714;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1399,7 +1400,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #F14E95;
+  border: 2px solid #cb9714;
 }
 
 #fh5co-offcanvas {
@@ -1652,9 +1653,9 @@ form label {
 }
 
 .btn-primary {
-  background: #F14E95;
+  background: #cb9714;
   color: #fff;
-  border: 2px solid #F14E95;
+  border: 2px solid #cb9714;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #f366a3 !important;
@@ -1662,11 +1663,11 @@ form label {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #F14E95;
-  border: 2px solid #F14E95;
+  color: #cb9714;
+  border: 2px solid #cb9714;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #F14E95;
+  background: #cb9714;
   color: #fff;
 }
 
@@ -1796,7 +1797,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #F14E95;
+  border-color: #cb9714;
 }
 
 .row-pb-md {
