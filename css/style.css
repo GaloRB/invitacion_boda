@@ -98,6 +98,33 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 40px 0;
   z-index: 1001;
 }
+
+@media screen and (max-width: 400px) {
+  .simply-countdown > .simply-section {
+    /* coutndown blocks */
+    width: 60px !important;
+    height: 60px !important;
+    background: #cb9714;
+    margin: 0 4px;
+  }
+  
+  .simply-countdown > .simply-section > div {
+    /* countdown block inner div */
+    height: 60px !important;
+    width: 60px !important;
+  }
+  
+  
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 12px !important;
+    /* amounts */
+  }
+  
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 8px !important;
+    /* words */
+  }
+}
 @media screen and (max-width: 768px) {
   .fh5co-nav {
     padding: 20px 0;
@@ -1829,3 +1856,15 @@ form label {
 .novio.novia img{
  object-fit: cover !important;
 }
+
+.carousel-1{
+ margin: auto 250px;
+}
+
+.carousel-item img{
+  border-radius: 50px;
+ }
+
+ .regalo{
+  margin-left: 20px !important;
+ }
