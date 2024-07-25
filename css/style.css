@@ -1259,6 +1259,26 @@ form label {
   #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
     width: 100%;
   }
+
+  carousel-1{
+    margin: auto 200px;
+   }
+   
+}
+
+@media screen and (max-width: 992px) {
+  #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
+    width: 100%;
+  }
+   
+}
+
+@media screen and (max-width: 2000px) {
+
+  .carousel-1{
+    margin: auto 200px !important;
+   }
+   
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide blockquote p {
   font-style: italic;
@@ -1860,7 +1880,7 @@ form label {
 }
 
 .carousel-1{
- margin: auto 250px;
+ margin: auto 20px;
 }
 
 .carousel-item img{
