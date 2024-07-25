@@ -2,6 +2,18 @@
 	
 	'use strict';
 
+	function screenHeight(){
+		console.log('jala');
+		const header = document.querySelector('#fh5co-header');
+		const title = document.querySelector('.title');
+		let screenHeight = window.innerHeight || document.documentElement.clientHeight;
+		let margin = (10/100)*screenHeight;
+		title.style.marginTop = margin + 'px';
+		header.style.height = screenHeight + 'px';
+
+
+	}
+
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
@@ -215,6 +227,7 @@
 
 	
 	$(function(){
+		screenHeight();
 		mobileMenuOutsideClick();
 		parallax();
 		//offcanvasMenu();

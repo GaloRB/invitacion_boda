@@ -850,7 +850,7 @@ form label {
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 100px;
+  font-size: 85px;
   line-height: 1.5;
   font-family: "Playwrite DK Uloopet", Arial, serif;
 }
@@ -1849,9 +1849,11 @@ form label {
   opacity: 0;
 }
 
+
 /*# sourceMappingURL=style.css.map */
 
 /* ------ Custom styles --------- */
+
 
 .novio.novia img{
  object-fit: cover !important;
