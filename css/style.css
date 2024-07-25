@@ -1276,7 +1276,7 @@ form label {
 @media screen and (max-width: 2000px) {
 
   .carousel-1{
-    margin: auto 200px !important;
+    margin: auto 200px;
    }
    
 }
