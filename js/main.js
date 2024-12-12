@@ -225,6 +225,13 @@
 		$(window).stellar();
 	};
 
+	// audio
+	let sound = document.querySelector('#sound');
+
+	window.addEventListener('scroll', ()=>{
+		sound.play();
+	})
+
 	
 	$(function(){
 		screenHeight();
