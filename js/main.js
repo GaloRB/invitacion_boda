@@ -228,6 +228,14 @@
 	// audio
 	let sound = document.querySelector('#sound');
 
+	function play_single_soung(){
+		window.onload=function(){
+			document.querySelector('#clic').click();
+		}
+	}
+
+	window.onbeforeunload = play_single_soung();
+
 	window.addEventListener('scroll', ()=>{
 		sound.play();
 	})
