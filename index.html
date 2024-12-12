@@ -354,6 +354,10 @@
 		</div>
 	</div>
 
+	<div class="qr-container" id="qrContainer">
+        <h2>Tu código QR:</h2>
+        <div id="qrcode"></div>
+    </div>
 
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
 		<div class="overlay"></div>
@@ -377,6 +381,12 @@
 							<div class="form-group">
 								<label for="lastName" class="sr-only">Apellido</label>
 								<input type="text" class="form-control" id="lastName" placeholder="Apellido">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="guests" class="sr-only">Número de personas</label>
+								<input type="number" min="1" class="form-control" id="guests" placeholder="Número de personas">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -434,6 +444,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/simply-countdown/dist/simplyCountdown.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 	<script>
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
@@ -458,7 +469,28 @@
 		e.preventDefault();
 		const name = document.querySelector('#name').value;
 		const lastName = document.querySelector('#lastName').value;
-		let   urlWhats = `https://api.whatsapp.com/send?phone=+527298041817&text=Hola%20Chicos%21%20Soy%20${name}%20${lastName}%20y%20claro%20que%20cuentan%20con%20mi%20asistencia.`;
+		const guests = document.querySelector('#guests').value;
+		let   urlWhats = `https://api.whatsapp.com/send?phone=+527298041817&text=Hola%20Chicos%21%20Soy%20${name}%20${lastName}%20y%20claro%20que%20cuentan%20con%20mi%20asistencia%20voy%20con%20${guests}%20personas.`;
+
+		const qrData = `Nombre - ${name}\nApellido - ${lastName}\nAsistentes - ${guests}`;
+
+		// clean QR container
+		const qrContainer = document.getElementById('qrcode');
+        qrContainer.innerHTML = "";
+
+		 // Generate QR code
+		/*  new QRCode(qrContainer, qrData); */
+
+		new QRCode(qrContainer, {
+			text: qrData,
+			width: 200, // Ancho del QR
+			height: 200, // Alto del QR
+			colorDark: "#000000", // Color del código
+			colorLight: "#ffffff", // Fondo del código
+		});
+
+			console.log(qrData)
+
 
 		window.open(urlWhats, '_blank');
 	})
